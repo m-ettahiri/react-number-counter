@@ -1,0 +1,41 @@
+{
+  "name": "react-number-counter",
+  "version": "1.0.7",
+  "description": "react counter",
+  "main": "./lib/counter.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "test": "npm test"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.12.0"
+  },
+  "keywords": [
+    "react-counter",
+    "number",
+    "increment",
+    "decrement",
+    "counter"
+  ],
+  "author": "Mohammed ETTAHIRI",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.12.0",
+    "webpack": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "path": "^0.12.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
