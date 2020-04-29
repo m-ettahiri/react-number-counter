@@ -1,14 +1,14 @@
-#react-number-counter
+# react-number-counter
 a simple react counter which increments a number or decrements it
 
-![center](./counter.gif)
+![center](https://raw.githubusercontent.com/m-ettahiri/react-number-counter/master/counter.gif)
 
 ## Quick start
-###Installation : 
+### Installation : 
 `npm install react-number-counter`
-###Import :
+### Import :
 `import Counter from 'react-number-counter'`
-##Examples
+## Examples
 `1. <Counter start={0} end={100} delay={10} />`   
 
 `2. <Counter start={100} end={0} delay={10} />`     
@@ -17,7 +17,7 @@ a simple react counter which increments a number or decrements it
 
 The Counter component just returns a number without html element .
 
-##Props
+## Props
 
 Name | Description | Default |
 --- | --- | --- | 
