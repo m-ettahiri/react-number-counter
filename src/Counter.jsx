@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
- function Counter({ start=0, end=60, delay=1000, repeat }) {
-  const [number, setNumber] = useState(start );
+function Counter({ start = 0, end = 60, delay = 1000, repeat }) {
+  const [number, setNumber] = useState(start);
   useEffect(() => {
     const interval = setInterval(() => {
       if (start < end) {
